@@ -22,49 +22,87 @@ Install the required Python packages using the following command:
 
 ```bash
 pip install pyautogui pyperclip openai
-Cloning the Repository
+
+```
+
+### Cloning the Repository
 Clone this repository to your local machine using:
 
-bash
+```bash
 Copy code
 git clone https://github.com/your-username/autorepiya.git
 cd autorepiya
-Configuration
+```
+
+### Configuration
 API Keys:
 
-Replace "YOU_OPENAI_KEY" with your OpenAI API key.
+- Replace "YOU_OPENAI_KEY" with your OpenAI API key.
+
 Sender Name:
 
-Replace "SENDER_NAME_HERE" in the is_last_message_from_sender function with the name of the sender you want to monitor.
+- Replace "SENDER_NAME_HERE" in the is_last_message_from_sender function with the name of the sender you want to monitor.
+
 Adjust Screen Coordinates:
 
-Modify the pyautogui.click() and pyautogui.moveTo() coordinates to match your screen resolution and chat window positions.
-Usage
+- Modify the pyautogui.click() and pyautogui.moveTo() coordinates to match your screen resolution and chat window positions.
+
+## Usage
+
 Run the script using:
 
-bash
+```bash
 Copy code
 python autorepiya.py
-The script will:
+```
 
-Click on a specific position in your chat window.
-Drag and select the chat content.
-Copy the content to the clipboard.
-Determine if the last message is from the specified sender.
-Generate a response using OpenAI and automatically send it in the chat.
-Contributing
-If you'd like to contribute to this project, please follow these steps:
+## The script will:
 
-Fork the repository.
-Create a new branch (git checkout -b feature-branch).
-Make your changes.
-Commit your changes (git commit -m 'Add new feature').
-Push to the branch (git push origin feature-branch).
-Open a Pull Request.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+    - Click on a specific position in your chat window.
+    - Drag and select the chat content.
+    - Copy the content to the clipboard.
+    - Determine if the last message is from the specified sender.
+    - Generate a response using OpenAI and automatically send it in the chat.
 
+## Using GitHub
 
+### Push Changes
 
+To push your changes to GitHub:
 
+```bash
+git add .
+git commit -m "Describe your changes"
+git push origin branch_name
+```
+
+### Pull Changes
+
+To pull the latest changes from the repository:
+
+```bash
+git pull origin branch_name
+```
+
+## Contributing
+
+If you wish to contribute to the project:
+
+1. **Fork the Repository**: Create your own copy of the repository by forking it on GitHub.
+2. **Create a New Branch**: Work on your feature in a new branch.
+   ```bash
+   git checkout -b feature-name
+   ```
+3. **Make Changes**: Implement your feature or fix.
+4. **Commit and Push**: Commit your changes and push them to your fork.
+5. **Create a Pull Request**: Submit a pull request to the original repository for review.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+This `README.md` file provides all the necessary instructions to set up, run, and contribute to the voice assistant project. Feel free to customize it further according to your specific needs.
+```
 
