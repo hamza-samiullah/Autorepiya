@@ -102,5 +102,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 This `README.md` file provides all the necessary instructions to set up, run, and contribute to the voice assistant project. Feel free to customize it further according to your specific needs.
-```
-
