@@ -29,7 +29,6 @@ pip install pyautogui pyperclip openai
 Clone this repository to your local machine using:
 
 ```bash
-Copy code
 git clone https://github.com/your-username/autorepiya.git
 cd autorepiya
 ```
@@ -52,7 +51,6 @@ Adjust Screen Coordinates:
 Run the script using:
 
 ```bash
-Copy code
 python autorepiya.py
 ```
 
