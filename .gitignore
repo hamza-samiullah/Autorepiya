@@ -1,0 +1,40 @@
+# Python virtual environments
+venv/
+.env/
+.vnv/
+env/
+.venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDEs
+.idea/
+.vscode/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# PyAutoGUI screenshots (if using the screenshot function)
+screenshot*.png
+
+# Any specific output files (like clipboard data)
+clipboard.txt
+
+# Python Packages
+*.egg-info/
+
+# OpenAI API key file
+api_key.txt
